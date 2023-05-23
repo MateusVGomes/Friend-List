@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+.friend img{
+    border-radius:500px;
+}
+.friend{
+border:10px solid black;
+
+}
+.profileBox{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
