@@ -1,17 +1,29 @@
-*{
-    margin:0;
-    box-sizing: border-box;
-}
-.friend img{
-    border-radius:500px;
-}
-.friend{
-border:10px solid black;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair', serif;
+  font-size:1.1em;
+  background-color: #2E4059;
+  color:white;
 
 }
-.profileBox{
-    display:grid;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
+.friend img {
+  border-radius: 500px;
+}
+.friend{
+border:10px solid white;
+ display:grid;
+ grid-template-columns: 40% 60%;
+ justify-content: center;
+ align-items: center;
+ justify-items: center;
+
+}
+.row{
+  grid-gap:5px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+ 
 }
