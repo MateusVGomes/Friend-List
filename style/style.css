@@ -27,3 +27,7 @@ border:10px solid white;
   justify-items: center;
  
 }
+
+#order-2{
+  order:1;
+}

@@ -11,20 +11,28 @@
       rel="stylesheet"
     />
     <script src="scripts/friendBox.js" defer></script>
+   <script src="scripts/removeFriend.js" defer></script>
     <link rel="stylesheet" href="style/style.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
     />
-   
+
     <title>Document</title>
   </head>
   <body>
     <div class="container-fluid">
       <main class="profileBox row container-fluid" id="profileBox">
-        <label for="form-control">Digite o ID a ser removido</label>
-        <input type="text" class="form-control container-fluid" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
       </main>
     </div>
+
+    <div class="input-group mb-3">
+      <label for="toBeRemovedInput">Digite o ID do amigo a ser removido</label>
+      <input type="number" id="toBeRemovedInput" class="form-control" placeholder="ID do usuário" aria-label="Recipient's username" aria-describedby="basic-addon2">
+      <div class="input-group-append">
+        <button class="btn btn-primary" id="removeButton" type="button">Confirmar</button>
+      </div>
+    </div>
+    
   </body>
 </html>
