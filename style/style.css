@@ -8,6 +8,9 @@
   color:white;
 
 }
+.fillWhiteSpace{
+width: 100vw;
+}
 .friend img {
   border-radius: 500px;
 }

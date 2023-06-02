@@ -12,12 +12,13 @@
     />
     <script src="scripts/friendBox.js" defer></script>
    <script src="scripts/removeFriend.js" defer></script>
-    <link rel="stylesheet" href="style/style.css" />
+   <script src="scripts/addNickName.js"></script> 
+   <link rel="stylesheet" href="style/style.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
     />
-
+    
     <title>Document</title>
   </head>
   <body>
@@ -25,14 +26,15 @@
       <main class="profileBox row container-fluid" id="profileBox">
       </main>
     </div>
+    <label for="toBeRemovedInput" class="fillWhiteSpace">Digite o ID do amigo a ser removido</label>
+    <div class="input-group">
 
-    <div class="input-group mb-3">
-      <label for="toBeRemovedInput">Digite o ID do amigo a ser removido</label>
       <input type="number" id="toBeRemovedInput" class="form-control" placeholder="ID do usuário" aria-label="Recipient's username" aria-describedby="basic-addon2">
       <div class="input-group-append">
         <button class="btn btn-primary" id="removeButton" type="button">Confirmar</button>
       </div>
     </div>
-    
+    <button onclick="changeNickName()" class="btn btn-primary fillWhiteSpace" >Aperte para alterar um apleido</button>
+    <button onclick="createNewFrind()" class="btn btn-primary fillWhiteSpace" >Aperte para alterar criar um novo amigo</button>
   </body>
 </html>

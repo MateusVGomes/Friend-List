@@ -20,8 +20,7 @@ removeButton.addEventListener("click", () => {
       .catch((error) => {
         console.log("Erro:", error);
       });
-  }
-  else{
-    alert('Você não tem nenhum amigo com esta ID');
+  } else {
+    alert("Você não tem nenhum amigo com esta ID");
   }
 });
